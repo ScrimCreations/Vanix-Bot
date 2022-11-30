@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-if (!process.env.TOKEN) throw new Error("BOT_TOKEN is not defined in the .env file");
+if (!process.env.TOKEN) throw new Error("TOKEN is not defined in the .env file");
 if (!process.env.CLIENT_ID) throw new Error("CLIENT_ID is not defined in the .env file");
 if (!process.env.GUILD_ID) throw new Error("GUILD_ID is not defined in the .env file");
 

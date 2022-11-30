@@ -18,7 +18,7 @@ const path_1 = require("path");
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
 if (!process.env.TOKEN)
-    throw new Error("BOT_TOKEN is not defined in the .env file");
+    throw new Error("TOKEN is not defined in the .env file");
 if (!process.env.CLIENT_ID)
     throw new Error("CLIENT_ID is not defined in the .env file");
 if (!process.env.GUILD_ID)
