@@ -1,4 +1,4 @@
 # Vanix-Bot
-A discord bot for the vanix discord server
+A discord bot to Manage users for the Vanix discord server
 
 Made By Mini (https://github.com/Mini51)
